@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block contenido
+    h1.text-center.mt-5 #{pagina}
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen nosotros", class="img-fluid")
+            .col-md-7
+
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat mauris a volutpat feugiat. Nunc interdum urna libero, quis eleifend metus sodales sed. Donec tempor suscipit viverra. Ut eget nunc semper, faucibus risus ut, posuere eros. 
+
+                p Aenean egestas ex eget massa laoreet egestas. Nam cursus lobortis scelerisque. Sed elementum ut elit id dictum. Pellentesque id consectetur lacus, vel euismod purus. Etiam rutrum leo mi, nec dictum sapien hendrerit eu. Proin maximus, risus ac fermentum tempor, ante quam faucibus lorem, non egestas sapien est non magna. Praesent non tellus mauris.
+
+                p Pellentesque tempor eros eget euismod congue. Suspendisse potenti. Curabitur pharetra scelerisque congue. Aenean condimentum mauris eget quam porta fermentum. Ut nec placerat elit. 
+    
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="Icono", class="img-fluid mb-4")
+                    h2.mb-4 Más seguridad 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis ipsa provident aperiam explicabo ipsum?
+                
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="Icono", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis ipsa provident aperiam explicabo ipsum?
+                
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="Icono", class="img-fluid mb-4")
+                    h2.mb-4 Mejores precios 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis ipsa provident aperiam explicabo ipsum?
